@@ -349,9 +349,9 @@ contract Pawthereum is Context, IERC20, Ownable {
     uint256 public _feeDecimal = 2;
     // 200 = 2%
     uint256 public _taxFee = 200;
-    uint256 public _liquidityFee = 200;
+    uint256 public _liquidityFee = 400;
     uint256 public _burnFee = 0;
-    uint256 public _marketingFee = 400;
+    uint256 public _marketingFee = 200;
     uint256 public _charityFee = 200;
     uint256 public _stakingFee = 0;
     uint256 public _maxTotalFee = 1200;
